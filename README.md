@@ -3,16 +3,16 @@
 ## Project Overview
 This project demonstrates unit testing for a simple Bank Account class in C#. The class simulates basic banking operations such as creating an account, depositing, and withdrawing money, with unit tests to validate different scenarios.
 ## Features
-1. Create a bank account with an initial balance. <br />
-2. Deposit money into the account, with validation for positive amounts.<br />
-3. Withdraw money from the account, including checks for negative amounts and overdrafts.<br />
+- Create a bank account with an initial balance. <br />
+- Deposit money into the account, with validation for positive amounts.<br />
+- Withdraw money from the account, including checks for negative amounts and overdrafts.<br />
 
 *Unit tests for scenarios:* <br />
-1. Successful account creation.<br />
-2. Depositing positive amounts.<br />
-3. Handling negative deposit attempts.<br />
-4. Withdrawing valid amounts.<br />
-5. Handling invalid withdrawals (negative amounts or exceeding balance).<br />
+- Successful account creation.<br />
+- Depositing positive amounts.<br />
+- Handling negative deposit attempts.<br />
+- Withdrawing valid amounts.<br />
+- Handling invalid withdrawals (negative amounts or exceeding balance).<br />
 
 
 ## Tech Stack
@@ -23,9 +23,9 @@ This project demonstrates unit testing for a simple Bank Account class in C#. Th
 ## How It Works
 The Bank Account class allows basic operations such as adding and withdrawing money. Each method has been unit tested to ensure proper functionality and error handling.<br />
 Key Methods in BankAccount Class:<br />
-1. **BankAccount (double amount)**: Constructor for creating account<br />
-2. **Deposit (double amount)**: Adds money to the account if the amount is positive.<br />
-3. **Withdraw (double amount)**: Removes money from the account, ensuring the amount is valid and doesn’t exceed the current balance.<br />
+- **BankAccount (double amount)**: Constructor for creating account<br />
+- **Deposit (double amount)**: Adds money to the account if the amount is positive.<br />
+- **Withdraw (double amount)**: Removes money from the account, ensuring the amount is valid and doesn’t exceed the current balance.<br />
 
 
 ## Test Cases<br />
